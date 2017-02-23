@@ -8,7 +8,7 @@
 
     var
         game_server = module.exports = { games : {}, game_count:0 },
-        UUID        = require('node-uuid'),
+        UUID        = require('uuid'),
         verbose     = true;
 
         //Since we are sharing code with the browser, we

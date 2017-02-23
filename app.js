@@ -13,7 +13,7 @@
 
         io              = require('socket.io'),
         express         = require('express'),
-        UUID            = require('node-uuid'),
+        UUID            = require('uuid'),
 
         verbose         = false,
         http            = require('http'),
